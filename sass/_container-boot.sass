@@ -1,0 +1,295 @@
+.container-boot
+  max-width: 1030px
+  margin: 0 auto
+  display: flex
+  justify-content: space-between
+  .container-col
+    display: flex
+    flex-direction: column
+    &_block 
+      width: 290px
+      box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.15)
+      background-color: #ffffff
+      margin-bottom: 50px
+      padding-top: 25px
+      padding-left: 17px
+      padding-right: 22px
+      &_line
+        margin: 0 auto
+        width: 250px
+        height: 2px
+        opacity: 0.2
+        background-color: #555555
+    .recipeby
+      height: 350px
+      width: 289px
+      background: #ffffff url(../img/photo_4925.png) bottom no-repeat
+      &_title
+        display: block
+        font-family: PlayfairDisplay
+        font-size: 22px
+        font-weight: 900
+        letter-spacing: 0.55px
+        text-align: center
+        color: #055555
+        padding-bottom: 15px
+      &-userblock
+        display: flex
+        padding: 10px 0px 15px 7px
+        &_img
+          margin-right: 20px
+        &_descr
+          display: flex
+          flex-direction: column
+          justify-content: flex-end
+          &s
+            font-family: JosefinSans
+            font-size: 16px
+            letter-spacing: 0.4px
+            color: #000000
+            &_b
+              font-weight: 900
+              margin-bottom: 5px
+    .target
+      height: 470px
+      &_block
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 10px
+        &_title
+          font-family: JosefinSans
+          font-size: 20px
+          letter-spacing: 0.5px
+          font-style: italic
+          color: #000000
+        &_img
+          height: 100%
+      &_mainblock
+        padding-top: 20px
+        padding-left: 11px
+        &_title
+          font-family: PlayfairDisplay
+          font-size: 20px
+          font-weight: 900
+          letter-spacing: 0.5px
+          text-align: left
+          color: #055555
+          margin-bottom: 40px
+        &-var
+          margin-top: 40px
+          display: flex
+          &_img
+            margin-right: 20px
+          &_descr
+            display: flex
+            flex-direction: column
+            justify-content: center
+            &1
+              font-family: JosefinSans
+              font-size: 18px
+              font-weight: 300
+              letter-spacing: 0.45px
+              text-align: left
+              color: #555555
+              margin-bottom: 3px
+            &2
+              font-family: JosefinSans
+              font-size: 14px
+              font-weight: 300
+              font-style: italic
+              letter-spacing: 0.35px
+              text-align: left
+              color: rgba(0, 0, 0, 0.5)
+
+    .recipe
+      min-height: 430px
+      &_block
+        padding-top: 15px
+        
+        &_button
+          display: flex
+          flex-wrap: wrap
+          justify-content: center
+          &_tab
+            padding: 5px
+            display: flex
+            justify-content: center
+            align-items: center
+            margin-bottom: 25px
+            width: 55px
+            margin-right: 10px
+            opacity: 0.8
+            font-family: JosefinSans
+            font-size: 12px
+            letter-spacing: 0.3px
+            color: rgba(0, 0, 0, 0.8)
+            border: none
+            background: transparent
+            &:hover
+              font-weight: bold
+              color: #000
+              cursor: pointer
+            &:focus
+              font-weight: bold
+              color: #000
+              cursor: pointer
+
+        &_setting
+          padding-left: 5px
+          &_button
+            text-align: right
+            &_right
+              text-transform: uppercase
+              padding: 9px 17px
+              margin-bottom: 30px
+        &_content
+          display: flex
+          margin-bottom: 30px
+          &_img
+            width: 50px
+            height: 45px
+            margin-right: 16px
+          &-text
+            font-family: JosefinSans
+            &_by
+              font-size: 12px
+              font-weight: 300
+              letter-spacing: 0.3px
+              color: #000000
+              vertical-align: top
+            &_user
+              font-weight: bold
+            &_descr
+              font-size: 14px
+              font-weight: 600
+              line-height: 1
+              letter-spacing: 0.4px
+              color: #000000
+              vertical-align: text-top
+    .tag
+      min-height: 160px
+      &_links
+        display: flex
+        flex-wrap: wrap
+        padding: 10px 0 10px 10px
+        &_link
+          
+          margin-right: 3px
+          margin-bottom: 10px
+          text-transform: uppercase
+          font-family: JosefinSans
+          font-size: 10px
+          font-weight: 300
+          letter-spacing: 0.3px
+          & a
+            color: #000000
+            padding: 5px
+          &:hover a
+            font-weight: 500
+    .calendar
+      height: 367px
+      margin-bottom: 100px
+    .popular
+      height: 349px
+      background: url(../img/photo_4797.png)
+      &_title 
+        font-family: PlayfairDisplay
+        font-size: 32px
+        font-weight: 900
+        letter-spacing: 0.8px
+        text-align: left
+        color: #921026
+        margin-bottom: 35px
+      &_subtitle
+        font-family: JosefinSans
+        font-size: 22px
+        font-weight: bold
+        letter-spacing: 0.55px
+        text-align: left
+        color: #000000
+        margin-bottom: 15px
+      &_text
+        font-family: JosefinSans
+        font-size: 16px
+        letter-spacing: 0.4px
+        text-align: left
+        color: #222222
+        margin-bottom: 20px
+      &_block
+        display: flex
+        justify-content: space-between
+    .timeline
+      height: 430px
+      &_block
+        &_utime
+          transform: rotate(270deg)
+          width: 170px
+          height: 200px
+          &_ez
+            &_title
+              opacity: 0.8
+              font-family: JosefinSans
+              font-size: 14px
+              font-weight: 300
+              text-align: left
+              color: rgba(85, 85, 85, 0.8)
+            &_title:first-child
+              padding-top: 40px  
+            &_line
+              display: inline-block
+              width: 70px
+              height: 10px
+              background-color: #87d0c5
+            &_min
+              display: inline-block
+              opacity: 0.5
+              font-family: OpenSans
+              font-size: 14px
+              font-weight: 300
+              text-align: left
+              color: #555555
+          &_mid
+            &_line
+              display: inline-block
+              width: 100px
+              height: 10px
+              background-color: #0d5959
+          &_long
+            &_line
+              display: inline-block
+              width: 130px
+              height: 10px
+              background-color: #b50051
+        &_line
+          margin: 15px auto
+          width: 200px
+          height: 2px
+          opacity: 0.2
+          background-color: #555555
+        &_descr
+          width: 200px
+          margin: 0 auto
+          font-family: JosefinSans
+          font-size: 14px
+          font-weight: 300
+          letter-spacing: 0.4px
+          text-align: left
+          color: #6a6a6a
+
+.show
+  display: block
+.hide
+  display: none
+.fade
+  -webkit-animation-name: fade
+          animation-name: fade
+  -webkit-animation-duration: 1s
+          animation-duration: 1s
+  -webkit-animation-name: fade
+  -webkit-animation-duration: 1s
+@-webkit-keyframes fade
+  from
+    opacity: 0.1
+  to
+    opacity: 1

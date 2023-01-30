@@ -1,0 +1,159 @@
+.container-form
+  width: 750px
+  margin: 0 auto
+  display: flex
+  justify-content: space-between
+  margin-bottom: 125px
+  &_col
+    width: 330px
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.15)
+    background-color: #ffffff
+    padding: 18px 30px 0 30px
+
+// форма логина
+.login
+  height: 400px
+  &_block
+    margin-bottom: 5px
+    &_title
+      padding-left: 5px
+      font-family: JosefinSans
+      font-style: italic
+      font-size: 20px
+      letter-spacing: 0.5px
+      color: #000000
+    &_line
+      width: 270px
+      height: 2px
+      opacity: 0.2
+      background-color: #555555
+      margin-bottom: 30px
+  &_form
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding-left: 5px
+    &_title
+      width: 100%
+      font-family: JosefinSans
+      font-size: 16px
+      font-weight: 300
+      letter-spacing: 0.4px
+      text-align: left
+      color: #000000
+      margin-bottom: 20px
+    &_input
+      padding: 12px 0 12px 20px
+      width: 100%
+      height: 40px
+      border: solid 1px #c2c2c2
+      background-color: #ffffff
+      margin-bottom: 16px
+
+      &:hover
+        cursor: pointer
+      &:focus
+        cursor: auto
+        padding: 14px 0 10px 20px
+        box-shadow: inset 1px 1.7px 7px 0 rgba(11, 12, 12, 0.37)
+    &_else
+      width: 100%
+      display: flex
+      align-items: end
+      justify-content: space-between
+      margin-bottom: 30px
+      // &_checkbox
+      //   margin-right: 5px
+      &_lable
+        display: flex
+        align-items: end
+        font-family: JosefinSans
+        font-size: 12px
+        letter-spacing: 0.3px
+        color: rgba(0, 0, 0, 0.54)
+        font-style: italic
+        // &::before
+        //   content: ''
+        //   height: 3px
+        //   width: 3px
+        //   border: 3px solid red
+      &_fp
+        font-family: JosefinSans
+        font-size: 12px
+        letter-spacing: 0.3px
+        color: rgba(0, 0, 0, 0.54)
+        font-style: italic
+        &:hover
+          text-decoration: underline
+    &_button
+      display: inline-block
+      padding: 9px 35px
+      margin-bottom: 20px
+    &_img
+      margin-bottom: 18px
+      display: flex
+      justify-content: center
+      align-items: end
+      &_f
+        margin-right: 20px  
+        width: 12px
+        height: 22px
+        &:hover
+          cursor: pointer
+      &_g 
+        width: 28px
+        height: 18px
+        &:hover
+          cursor: pointer 
+    &_info
+      font-family: JosefinSans
+      font-size: 16px
+      letter-spacing: 0.4px
+      text-align: left
+      color: rgba(0, 0, 0, 0.54)
+      font-style: italic
+      &_singin
+        color: rgba(0, 0, 0, 0.54)
+        &:hover
+          text-decoration: underline
+// форма регистрации
+.singin
+  height: 535px
+  &_form_info
+    font-family: JosefinSans
+    font-size: 14px
+    letter-spacing: 0.35px
+    text-align: left
+    color: rgba(0, 0, 0, 0.54)
+    font-style: italic
+    margin-bottom: 15px
+    &_singin
+      color: rgba(0, 45, 214, 0.54)
+      text-decoration: underline
+      
+  &_form_login
+    width: 100%
+    font-family: JosefinSans
+    font-size: 12px
+    font-weight: 300
+    letter-spacing: 0.3px
+    text-align: left
+    color: #000000
+    &:hover
+      text-decoration: underline
+
+
+// input[type=checkbox]
+//   display: none   
+
+// .login_form_else .login_form_else_lable::before
+   
+
+// input[type=checkbox]:checked + .login_form_else_lable::before
+//   content: "\2713"
+//   text-shadow: 1px 1px 1px rgba(0, 0, 0, .2)
+//   font-size: 15px
+//   color: #f3f3f3
+//   text-align: center
+//   line-height: 15px
+//   border-radius: 3px

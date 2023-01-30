@@ -1,0 +1,213 @@
+.container-review
+  width: 840px
+  margin: 0 auto
+  padding-bottom: 100px
+  &_block
+    padding: 20px 40px 
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.15)
+    background-color: #ffffff
+    margin-bottom: 50px
+    &_title
+      font-family: JosefinSans
+      font-size: 24px
+      font-style: italic
+      letter-spacing: 0.6px
+      text-align: left
+      color: #000000
+    &_sweb
+      display: flex
+      min-width: 150px
+      justify-content: space-between
+      align-items: end
+      &_text
+        display: flex
+        align-items: flex-start
+        height: 17px
+        font-family: JosefinSans
+        font-size: 16px
+        font-style: italic
+        letter-spacing: 0.4px
+        text-align: left
+        color: #000000
+      &_line
+        height: 17px
+        width: 1px
+        background-color: #000
+        transform: rotate(15deg)
+  .post
+    height: 190px
+    &_block
+      display: flex
+      justify-content: space-between
+      padding-bottom: 25px  
+    &_form
+      padding: 15px 20px
+      display: flex
+      align-items: center
+      background-color: #5555551e
+      &_img 
+        margin-right: 65px
+      &_input
+        margin-right: 5px
+        height: 40px
+        width: 500px
+        border: solid 1px #c2c2c2
+        padding-left: 20px
+      &_button
+        padding: 0 24px
+        height: 40px
+        color: #ffffff 
+        border: solid 1px #c2c2c2
+        background-color: #383737
+  .comment
+    min-height: 760px
+    &_line
+      height: 2px
+      opacity: 0.2
+      background-color: #555555
+      margin-top: 15px
+    &_block
+      &_post
+        display: flex
+        padding-top: 15px
+        &_img
+          background: url(../img/user-photo.png)
+          min-width: 56px
+          height: 56px
+          margin-right: 20px
+          margin-top: 5px
+        &_else
+          width: 100%
+          &_by
+            font-family: JosefinSans
+            font-size: 16px
+            font-weight: 300
+            letter-spacing: 0.4px
+            color: #000000
+            margin-bottom: 5px    
+          &_info
+            display: flex
+            width: 100%
+            justify-content: space-between
+            margin-bottom: 8px
+            &_block 
+              display: flex
+              align-items: flex-start
+              &_name
+                font-family: JosefinSans
+                font-size: 16px
+                font-weight: bold
+                letter-spacing: 0.4px
+                text-align: left
+                color: #000000
+                margin-right: 10px
+              &_reply
+                font-family: JosefinSans
+                font-size: 12px
+                font-weight: bold
+                letter-spacing: 0.3px
+                text-align: left
+                color: #629494
+                text-decoration: underline
+                &:hover
+                  text-decoration: none
+              &_num
+                margin-right: 6px
+                font-family: JosefinSans
+                font-size: 12px
+                font-weight: bold
+                letter-spacing: 0.3px
+                color: rgba(0, 0, 0, 0.8)
+              &_img
+                width: 12px
+                height: 12px
+                margin-right: 10px
+        &_data
+          font-family: JosefinSans
+          font-size: 12px
+          font-weight: bold
+          letter-spacing: 0.3px
+          text-align: left
+          color: #629494
+          margin-bottom: 10px
+        &_blockimg
+          position: relative
+          margin-bottom: 15px
+          &_f
+            width: 313px
+            height: 208px
+          &_s
+            width: 54px
+            height: 54px
+            position: absolute
+            left: 250px
+            top: 10px
+            background: #ffffff
+            border-radius: 50%
+            display: flex
+            justify-content: center
+            align-items: center
+
+
+
+        &_text
+          font-family: JosefinSans
+          font-size: 16px
+          font-weight: 300
+          letter-spacing: 0.4px
+          text-align: left
+          color: #000000
+        &_more
+          font-family: JosefinSans
+          font-size: 16px
+          font-weight: 300
+          letter-spacing: 0.4px
+          text-align: left
+          color: rgba(0, 0, 0, 0.54)
+          padding-top: 25px
+          text-align: center
+              
+  .tab
+    height: 90px
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: 0 270px
+    &_content
+      display: flex
+      justify-content: space-between
+      width: 100%
+      &_nums
+        display: flex
+        width: 70%  
+        justify-content: space-between 
+        &_num
+          width: 13px
+          font-family: JosefinSans
+          font-size: 18px
+          font-weight: 300
+          letter-spacing: 0.45px
+          color: #000000
+          &:hover
+            color: #629494
+            cursor: pointer
+          &:active
+            color: #629494
+          &:focus
+            color: #629494
+      &_arrl
+        height: 13px
+        width: 13px
+        content: '\003C'
+        color: #000
+        &:hover
+          color: #629494
+          cursor: pointer
+      &_arrr
+        height: 13px
+        width: 13px
+        content: '\003E'
+        color: #000
+        &:hover
+          color: #629494
+          cursor: pointer
